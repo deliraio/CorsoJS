@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Pagina di Prova</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stile.css">
+</head>
+
+<body>
+    <div>
+        <form>
+            <input type="text" id="nome" name="nome" placeholder=Nome maxlength="30"><br><br>
+            <input type="text" id="cognome" name="cognome" placeholder="Cognome" maxlength="40"><br><br>
+            <input type="text" id="matricola" name="matricola" placeholder="Matricola" min="0" max="1234567"
+                maxlength="7"><br><br>
+            <select name="regione" id="regione">
+                <option value="" disabled selected hidden>Regione</option>
+                <option value="lazio">Lazio</option>
+                <option value="campania">Campania</option>
+                <option value="piemonte">Piemonte</option>
+            </select><br>
+           <div>
+               <h3>Seleziona il tuo status</h3>
+                <input type="radio" id="incorso" name="status">
+                <label for="incorso">In Corso</label>
+                <input type="radio" id="fcorso" name="status">
+                <label for="fcorso">Fuori Corso</label>
+            </div>
+                
+            
+
+            <input type="email" id="mail" name="mail" placeholder="LaTuaMail@mail.it" maxlength="30"><br><br>
+            <input type="tel" id="tel" name="tel" placeholder="Telefono" required><br><br>
+            <textarea name="reqparticolari" id="reqparticolari" cols="60" rows="12"
+                placeholder="Richieste particolari"></textarea><br><br>
+            <div>
+                <input type="submit" id="bottone" value="Inserisci">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

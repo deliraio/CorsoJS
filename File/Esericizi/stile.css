@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: Ubuntu;
+    padding: 10px;
+    
+}
+
+select:invalid {
+    color: gray;
+}
+
+div{
+    margin: auto;
+}

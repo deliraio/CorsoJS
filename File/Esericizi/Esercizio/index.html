@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Esercizio</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <form action="" method="post" name="form">
+        <label for="cognome">Cognome: </label>
+        <input type="text" name="cognome" id="" maxlength="50"><br>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="" value="ciao" maxlength="50"><br>
+        <label for="sesso">Sesso:</label>
+        <input type="radio" name="sesso" id="" value="M">M
+        <input type="radio" name="sesso" id="" value="F">F <br>
+        <label for="ateneo">Ateneo:</label>
+        <input list="ateneo">
+        <datalist id="ateneo">
+            <option value="Roma1">Roma 1 - Sapienza</option>
+            <option value="Roma2">Roma 2 - Tor Vergata</option>
+            <option value="Roma3">Roma 3</option>
+        </datalist><br>
+        <label for="cap">CAP: </label>
+        <input type="text" name="cap" id=""><br>
+        <label for="studlav">Studente lavoratore? :</label> 
+        <input type="checkbox" name="studlav" id=""><br>
+        <label for="casellatesto">Descrizione del lavoro svolto: </label>
+        <textarea name="" id="" cols="20" rows="10" maxlength="80"></textarea><br><br>
+        <input type="submit" value="Invio">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
