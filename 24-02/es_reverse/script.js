@@ -1,7 +1,7 @@
 //
 // esercizio commentato con callback funzionante
 //
-/*
+
 function stampaAlert(stringa, stringaAlContrario) {
     alert(`La stringa: (${stringa}) al contrario e': ${stringaAlContrario}`);
 }
@@ -14,11 +14,12 @@ function reverse(stringa) {
 }
 
 reverse("buongiorno!");
-*/
+
 
 //
-// Esericizio con Promise
+// Esericizio con Promise non funzionante
 //
+/*
 function stampaAlert(stringa, stringaAlContrario) {
   alert(`La stringa: (${stringa}) al contrario e': ${stringaAlContrario}`);
 }
@@ -36,3 +37,4 @@ let laMiaPromise = new Promise(function (reverseS, reverseN) {
 laMiaPromise.then(
     function(value,value){stampaAlert(value,value);}
 );
+*/
