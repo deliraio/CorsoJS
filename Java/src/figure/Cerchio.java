@@ -21,11 +21,6 @@ public class Cerchio extends Ellisse {
     }
 
     @Override
-    public double Area() {
-        return raggio * raggio;
-    }
-
-    @Override
     public String toString() {
         return "Cerchio{" + "raggio=" + raggio + '}';
     }

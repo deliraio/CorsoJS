@@ -21,11 +21,6 @@ public class Quadrati extends Rettangoli {
     }
 
     @Override
-    public double Area() {
-        return lato * lato;
-    }
-
-    @Override
     public String toString() {
         return "Quadrati{" + "lato=" + lato + '}';
     }
