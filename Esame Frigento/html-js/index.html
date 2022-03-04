@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Frigento</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <input type="text" name="email" id="email" placeholder="email" value=""><br>
+        <input type="password" name="psw" id="psw" placeholder="password" value=""><br>
+        <input type="password" name="confermapsw" id="confermapsw" placeholder="conferma password" value=""><br>
+        <input type="text" name="nome" id="nome" placeholder="nome" value=""><br>
+        <input type="text" name="cognome" id="cognome" placeholder="cognome" value=""><br>
+        <input type="text" name="eta" id="eta" placeholder="eta'" value=""><br>
+        <input type="radio" name="sesso" id="sesso" value="M">M
+        <input type="radio" name="sesso" id="sesso" value="F">F <br>
+
+        <select name="regione" id="regione">
+            <option value="nessuna" hidden>Regione</option>
+            <option value="valdaosta">Val d’Aosta</option>
+            <option value="piemonte">Piemonte</option>
+            <option value="liguria">Liguria</option>
+            <option value="lombardia">Lombardia</option>
+            <option value="veneto">Veneto</option>
+            <option value="trentino">Trentino Alto Adige</option>
+            <option value="friuli">Friuli Venezia-Giulia</option>
+            <option value="emilia">Emilia-Romagna</option>
+            <option value="toscana">Toscana</option>
+            <option value="marche">Marche</option>
+            <option value="umbria">Umbria</option>
+            <option value="lazio">Lazio</option>
+            <option value="abruzzo">Abruzzo</option>
+            <option value="molise">Molise</option>
+            <option value="campania">Campania</option>
+            <option value="basilicata">Basilicata</option>
+            <option value="puglia">Puglia</option>
+            <option value="calabria">Calabria</option>
+            <option value="sicilia">Sicilia</option>
+            <option value="sardegna">Sardegna</option>
+        </select><br>
+        <button type="button" onclick="promiseInvioDati('POST',urlSet)">set</button>
+        <button type="button" onclick="promisePrendiDati('POST',urlGet)">get</button>
+        <button type="button" onclick="promiseAggiornaDati('POST',urlUpp)">up</button>
+        <button type="button" onclick="promiseCancellaDati('POST',urlDel)">del</button>
+        <br><br>
+        <h1 id="demo"> </h1>
+
+    </form>
+</body>
+ <script src="script.js"></script>
+</html>
